@@ -1,0 +1,330 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(0, 0, 0);
+   
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    color: #ffffff;
+    
+    
+    
+    
+}
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 70px;
+    
+    margin-top: -50px;
+    margin-left: -10px;
+}
+
+
+
+
+
+main{
+    width: 100%;
+    height: 600px;
+    
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+section{
+    margin-left: 15px;
+    height: 100%;
+    background-color: rgb(121, 121, 121);
+    
+    border-radius: 20px;
+}
+
+
+.principal{
+   width: 60%;
+   
+    
+
+}
+.segundo{
+    width: 35%;
+    margin-right: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+img{
+    width: 80%;
+    height: 60%;
+    margin:10px;
+    padding-top: 45px;
+    margin-left: 20px;
+    padding-left: 50px;
+    text-align: center;
+}
+.contenedor_texto{
+    width: 100%;
+    margin-top: 30px;
+    height: 20%;
+    text-align: center;
+}
+
+
+.textarea{
+    
+    width: 80%;
+    height: 75%;
+    resize: none;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: 0;
+    background-color: rgb(121, 121, 121);
+    outline: 0;
+   
+   
+}
+::placeholder {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+
+  
+.botones{
+    text-align: center;
+    margin-top: 20px;
+}
+.botones button{
+    width: 30%;
+    height: 40px;
+    margin-top: 4px;
+    font-size: 20px;
+    display: inline-block;
+    padding: 0.2em;
+    font-weight: bold;
+    border-radius: 5px;  
+    cursor: pointer;
+    background-color: #000000;
+    color: #ffffff;
+    transition: 2s all;
+    position: relative;
+    
+}
+
+.botones button:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+
+
+
+.textarea2{
+    width: 80%;
+    height: 80%;
+    resize: none;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(121, 121, 121);
+}
+
+.copy{
+    width: 100%;
+    height: 20px;
+    display: flex;
+}
+
+#copiar{
+    width: 30%;
+    height: 40px;
+    margin: auto;
+    margin-top: 15px;
+    display: inline-block;
+    padding: 0.2em;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;  
+    cursor: pointer;
+    background-color: #000000;
+    color: #ffffff;
+    transition: 2s all;
+    position: relative;
+    
+
+}
+
+#copiar:hover{
+    background-color:  #ffffff;
+    color: #000000;
+}
+
+footer{
+    padding-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 60px;
+    
+    
+}
+
+.Copyright{
+    color: #ffffff;
+    font-size: 0.8em;
+    margin: 20px;
+}
+
+.ocultar{
+    display: none;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    main {
+      flex-direction: column;
+    }
+  
+    .principal {
+      width: 100%;
+      
+    }
+
+    img{
+        width: 40%;
+        height:40%;
+        margin:auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .textarea{
+        height: 70%;
+        background-color: rgb(121, 121, 121);
+        
+    }
+    .textarea2{
+        height: 70%;
+        background-color: rgb(121, 121, 121);
+    }
+  
+    .segundo {
+     margin: 20px;
+      width: 95%;
+      margin: auto;
+      justify-content: space-between;
+      margin-top:20px;
+      height: 90%;
+     
+    }
+    .contenedor_texto{
+        margin-top: 5px;
+    }
+    .botones{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .Copyright{
+        color: #ffffff;
+        font-size: 0.8em;
+        margin: 20px;
+    }
+   
+  }
+   
+  @media (max-width: 480px) {
+
+    main {
+        flex-direction: column;
+      }
+    
+      .principal {
+        width: 90%;
+        
+      }
+  
+      img{
+          width: 40%;
+          height:40%;
+          margin:auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;   
+          
+      }
+
+      .botones button{
+        width: 38%;
+        height: 40px;
+
+        font-size: 18px;
+      }
+      .textarea{
+        width: 90%;
+          height: 75%;
+          background-color: rgb(121, 121, 121);
+          
+      }
+      .textarea2{
+          height: 70%;
+          background-color: rgb(121, 121, 121);
+      }
+    
+      .segundo {
+       margin: 20px;
+        width: 85%;
+        margin: auto;
+        justify-content: space-between;
+        margin-top:20px;
+        height: 90%;
+       
+      }
+      .contenedor_texto{
+          margin-top: 5px;
+      }
+      .botones{
+          text-align: center;
+          margin-top: 5px;
+      }
+      .Copyright{
+          color: #ffffff;
+          font-size: 0.8em;
+          margin: 20px;
+      }
+     
+    
+  }
+      
+
+   
+  
+  
+
+
